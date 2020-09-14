@@ -37,7 +37,7 @@ You will need a Laptop. We recommend that you have an extra Screen such as a Pho
 
 ## Slides
 
-Available Soon.
+Download [Here](./ecmlpkdd2020.pdf). 
 
 ## AWS Account
 AWS account is not required for this Lab, you will be provided with a HashURL to access a pre-provisioned AWS environment and Amazon Sagemaker.
