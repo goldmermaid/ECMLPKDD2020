@@ -52,7 +52,7 @@ Amazon SageMaker is a fully-managed service that enables developers and data sci
 1. Pick a notebook instance name in the first text box.
 1. For notebook instance type, select `ml.c5.2xlarge`.
 1. Under Additional Configuration, Set volume size to be "50 GB".
-1. Under Git repositories, select Clone a Public Git.... Then, enter: https://github.com/goldmermaid/KDD-2020 in the text box.
+1. Under Git repositories, select `Clone a Public Git`.... Then, enter: https://github.com/goldmermaid/KDD-2020 in the text box.
 1. Click on `Open Jupyter` when the status turns Green "In Service".
 1. Open `bert_pytorch_finetuning.ipynb` in the directory `KDD-2020/bert_finetuning_kdd` .
 
@@ -64,6 +64,4 @@ If you are interested in our Research reward program, please see the link below.
 ## License
 The contents of this workshop are licensed under the Apache 2.0 License.
 
-```{.python .input}
 
-```
