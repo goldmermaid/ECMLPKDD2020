@@ -23,31 +23,37 @@ In this tutorial, Tim O’Brien (AWS), Rachel Hu (AWS) and Wenming Ye (AWS) offe
 
 
 ## Agenda
-- 6:30 Welcome and Logistics
-- 6:40 Amazon AI and SageMaker Overview
-- 7:10 BERT and Transformer
-- 7:50 Lab: Training/FineTuning Q&A model
-    (10 min break during model training)
-- 8:30 Lab: Model Deployment
-- 9:00 Conclusion 
+
+
+|   CETS Time    |  Title    |  Speaker | Slides/Notebooks    |
+| ---- | ---- | ---- | ---- |
+| 3:30 PM | **Welcome and Logistics** | Tim O’Brien; Rachel Hu; Wenming Ye | N/A |
+| 3:40 PM | **Amazon AI and SageMaker Overview** | Tim O’Brien | [slides](https://github.com/goldmermaid/ECMLPKDD2020/blob/master/ecmlpkdd2020.pdf) |
+| 4:10 PM | **BERT and Transformer** | Rachel Hu  | (same as above)  |
+| 4:50 PM | **Lab: Fine Tuning BERT Model on Q&A dataset** | Rachel Hu  |  [jupyter](https://github.com/goldmermaid/ECMLPKDD2020/blob/master/bert_finetune/bert_pytorch_finetuning.ipynb) |
+|  | (10 min break during model training)  |
+| 5:30 PM | **Lab: Model Deployment** | Rachel Hu  | (same as above) |
+| 6:00 PM | **Conclusion** | Tim O’Brien; Rachel Hu; Wenming Ye | N/A  |
+
+
 
 
 ## Prerequisites
-You will need a Laptop. We recommend that you have an extra Screen such as a Phone, or IPad, if available.
+You will need a Laptop. We recommend that you have an extra Screen if available.
 
 ## Slides
 
 Download [Here](./ecmlpkdd2020.pdf). 
 
 ## AWS Account
-AWS account is not required for this Lab, you will be provided with a HashURL to access a pre-provisioned AWS environment and Amazon Sagemaker.
+AWS account is not required for this Lab, you will be provided with a Hash URL to access a pre-provisioned AWS environment and Amazon Sagemaker.
 
 Amazon SageMaker is a fully-managed service that enables developers and data scientists to quickly and easily build, train, and deploy machine learning models at any scale. Amazon EC2 P3 instances deliver the highest performance compute in the cloud, are cost-effective, support all major machine learning frameworks, and are available globally. In this workshop, you'll create a SageMaker notebook instance and work through sample Jupyter notebooks that demonstrate some of the many features of SageMaker and how Amazon EC2 P3 is used to accelerate machine learning model training.
 
 
 ## Live Lab Instructions:
 1. Go to Events engine website (will be given during live event), on team dashboard, click on AWS Console. If you are using your own account, skip to step 3.
-1. Now click on `Open AWS Console`. Find, and Click on `Amazon SageMaker` Service link on the mainpage.
+1. Now click on `Open AWS Console`. Find, and Click on `Amazon SageMaker` Service link on the main page.
 1. On the left side menu, go down to Notebook, select submenu item `Notebook Instances`. Now, click on the orange `Create Notebook Instance` Button.
 1. Pick a notebook instance name in the first text box.
 1. For notebook instance type, select `ml.c5.2xlarge`.
