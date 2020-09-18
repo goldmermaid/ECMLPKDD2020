@@ -28,7 +28,7 @@ In this tutorial, Tim O’Brien (AWS), Rachel Hu (AWS) and Wenming Ye (AWS) offe
 |   CETS Time    |  Title    |  Speaker | Slides/Notebooks    |
 | ---- | ---- | ---- | ---- |
 | 3:30 PM | **Welcome and Logistics** | Tim O’Brien; Rachel Hu; Wenming Ye | N/A |
-| 3:40 PM | **Amazon AI and SageMaker Overview** | Tim O’Brien | [slides](https://github.com/goldmermaid/ECMLPKDD2020/blob/master/ecmlpkdd2020.pdf) |
+| 3:40 PM | **Amazon AI and SageMaker Overview** | Wenming Ye | [slides](https://github.com/goldmermaid/ECMLPKDD2020/blob/master/ecmlpkdd2020.pdf) |
 | 4:10 PM | **BERT and Transformer** | Rachel Hu  | (same as above)  |
 | 4:50 PM | **Lab: Fine Tuning BERT Model on Q&A dataset** | Rachel Hu  |  [jupyter](https://github.com/goldmermaid/ECMLPKDD2020/blob/master/bert_finetune/bert_pytorch_finetuning.ipynb) |
 |  | (10 min break during model training)  |
