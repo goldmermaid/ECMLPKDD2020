@@ -53,18 +53,31 @@ Amazon SageMaker is a fully-managed service that enables developers and data sci
 
 ## Live Lab Instructions:
 1. Go to Events engine website (will be given during live event), on team dashboard, click on AWS Console. If you are using your own account, skip to step 3.
-1. Now click on `Open AWS Console`. Find, and Click on `Amazon SageMaker` Service link on the main page.
-1. On the left side menu, go down to Notebook, select submenu item `Notebook Instances`. Now, click on the orange `Create Notebook Instance` Button.
+1. Now click on `Open AWS Console`. Find, and click on `Amazon SageMaker` service link on the main page.
+    <img src="./img/zzz.png" width="400">
+1. On the left side menu, go down to Notebook, select submenu item `Notebook instances`. Now, click on the orange `Create notebook instance` Button.
+    <img src="./img/zz.png" width="150">
 1. Pick a notebook instance name in the first text box.
-1. For notebook instance type, select `ml.c5.2xlarge`.
-1. Under Additional Configuration, Set volume size to be "50 GB".
-1. Under Git repositories, select `Clone a Public Git`.... Then, enter: https://github.com/goldmermaid/KDD-2020 in the text box.
-1. Click on `Open Jupyter` when the status turns Green "In Service".
-1. Open `bert_pytorch_finetuning.ipynb` in the directory `KDD-2020/bert_finetuning_kdd` .
+1. For notebook instance type, select "**ml.p2.xlarge**".
+1. Click `Additional Configuration`, and set "Volume size in GB" to be "50 GB".
+    <img src="./img/volume.png" width="400">
+
+1. Scroll down and click `Git repositories`. Click the drop-down menue and select `Clone a Public Git....`. Then, enter: "**https://github.com/goldmermaid/ECMLPKDD2020**" in the text box.
+    <img src="./img/gitrepo.png" width="400">
+1. Finally, click on the orange `Create notebook instance` Button. Now the notebook instance launching request is sent and the instance's status is show `Pending`. It should be launched in 2-5 minutes.
+
+Once the instance's status turns Green `In Service`:
+1. Click on `Open Jupyter`.
+    <img src="./img/zzzz.png" width="600">
+    
+1. In the directory `bert_finetuning`, open Jupyter notebook "**bert_pytorch_finetuning.ipynb**".
 
 
 
-If you are interested in our Research reward program, please see the link below. Or contact us directly. https://aws.amazon.com/aws-ml-research-awards/
+Now go ahead and finetune your BERT model on SQuAD dataset!
+
+
+(If you are interested in our Research reward program, please see the link below. Or contact us directly. https://aws.amazon.com/aws-ml-research-awards/)
 
 
 ## License
